@@ -18,7 +18,7 @@ public class Persona {
     private String genero;
     private int edad;
 
-    // Constructor de la clase Vehiculo
+    // Constructor de la clase Persona
     public Persona(String nombre, String apellido, String genero, int edad ) {
         this.nombre = nombre;
         this.apellido = apellido;
@@ -28,8 +28,8 @@ public class Persona {
     }
 
     // Métodos getter para obtener los valores de los atributos
-    public String getNombre() { //metodo para obtener el código del vehículo
-        return nombre; //devuelve el atributo código del vehículo
+    public String getNombre() {
+        return nombre;
     }
 
     public String getApellido() {
@@ -41,13 +41,13 @@ public class Persona {
     }
 
     public int getEdad() {
-        return edad; //devuelve el atributo modelo del vehículo
+        return edad;
     }
 
 
     // Método toString para representar la información del vehículo en texto
     @Override
     public String toString() {
-        return "[Nombre: " + nombre + ", Apellido: " + apellido + ", Genero: " + genero + ", Edad: " + edad + "]"; //devuelve la información del vehículo
+        return "[Nombre: " + nombre + ", Apellido: " + apellido + ", Genero: " + genero + ", Edad: " + edad + "]";
     }
 }
